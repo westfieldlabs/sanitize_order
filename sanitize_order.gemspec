@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Sanitize an sql order clause from tainted params}
   spec.description   = %q{Sanitize an sql order clause from tainted params}
-  spec.homepage      = 'https://github.com/westfield/sanitize_order'
+  spec.homepage      = 'https://github.com/westfieldlabs/sanitize_order'
   spec.license       = 'Apache-2.0'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
