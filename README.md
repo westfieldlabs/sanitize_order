@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/westfieldlabs/sanitize_order.svg?branch=master)](https://travis-ci.org/westfieldlabs/sanitize_order)
+
 # SanitizeOrder
 
 Sanitize an SQL order clause that might be tainted. Includes a whitelist option to
