@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+- 2.2.2
+before_install: gem install bundler -v 1.11.2
+deploy:
+  provider: rubygems
+  api_key:
+    secure: HWZMJEj+ME7cMlXJZWjCLxFPE32I+iJCs81G8QsBcrYwTTYGdC0aMDbH78bC7ypTByPUuapVWx4hjGCDDemLMEAMlljO4SYjzMBsejx58POdGF35qVfz3TVosncVx7dyY9Ke1MWcvspuz0xhp8ySl/4ZX7k7LOcyAJjBpHz7Y86iYOp1BjG7reqbYz/o2h7t3ye2QuvS5uwlV5z7TA6etC3MgKJzOgrtBzFA5wretkNHhP0gNg0Hp+Cifu8DW9+gECUmvjQ+egAp5SgS0P2HpFR3+U+BfBAghtauGtQUM9ElwUv6g4x6DSmuWBD8ywV1O0Oq/YfI+Yq3wGGxLSFiwj4tjclclJAzhxPGR2Y3b76smy7l2u8xyhbc0T7QsM6LaTxeOaxOl4uvJsa5XmRfgY8T1W4jOZKP5nVWx+3sEG5XYJzvR6lOgalTZgXM1yrfZfK+9cvaXP2+SzTsI33zpNWpxwKuwBONo/Ge7cxmx94LmUK4S1vaK8Vc8vXqsEmgBWWyuXqGL6LFcXXw+wa38GTK/N2uWhOb3XxeZ/0z9Mgy1q1rUFsvRLZ8BkA+hlsaIv26ynTuCauwo9aYX00vuL+lSHhXzPQ7RxC3N+CLWz2TrguMbR0OkYsjkysjXt8m+45SlwMRrqyl6lEWYhKudyzwwpbA9dFGqAk1COfaOeA=
+  gem: sanitize_order
+  on:
+    tags: true
+    repo: westfieldlabs/sanitize_order
